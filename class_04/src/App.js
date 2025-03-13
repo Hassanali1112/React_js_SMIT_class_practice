@@ -14,7 +14,7 @@ function App() {
   return (
 
     <div className="App">
-      <NavbarCom />
+      {/* <NavbarCom /> */}
       <div className='d-flex gap-5 border py-5' >
         <Link to={"/about"} >go to about</Link>
         <Link to={"/contact"} >go to contact</Link>

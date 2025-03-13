@@ -27,6 +27,12 @@ function TestComponent() {
   useEffect(()=>{
     console.log("hello from useEffect of every change")
   })
+  useEffect(()=>{
+    
+    return (()=>{
+      console.log("hello from cleaner useEffect render when a component unmount!");
+    })
+  })
 
   useEffect(()=>{
 
